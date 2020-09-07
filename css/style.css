@@ -1,0 +1,59 @@
+body
+{
+    background-color: rgb(101, 110, 138);
+}
+main
+{
+    background-color: darkseagreen;
+} 
+footer
+{
+    background-color: rgb(137, 95, 177);
+}
+header
+{
+    background-color: rgb(143, 162, 188);
+}
+.cuestion 
+{
+    color: rgb(154, 255, 154);
+    font-size: 20px;
+}
+.lista
+{
+    color: rgb(0, 255, 179);
+    font-size: 20px;
+}
+.fru
+{
+    color: rgb(208, 255, 0);
+}
+.U 
+{
+    color: mediumslateblue;
+}
+.car
+{
+    color: salmon;
+}
+.pollo
+{
+    color: peru;
+}
+.corte
+{
+    color: tomato;
+}
+.ver
+{
+    color: rgb(100, 149, 0);
+    font-size: 20px;
+}
+.cas
+{
+    color: indigo;
+}
+.zfrech
+{
+    color: orangered;
+}
