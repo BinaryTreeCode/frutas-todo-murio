@@ -11,10 +11,10 @@
     <body>
         <header>
             <nav>
-                <ul>
-                    <li><a href="">Cuestionario</a></li>
-                    <li><a href="">mercado</a></li>
-                    <li><a href="">video</a></li>
+                <ul class="main-nav">
+                    <li class="main-nav__item" ><a href="">Cuestionario</a></li>
+                    <li class="main-nav__item" ><a href="">mercado</a></li>
+                    <li class="main-nav__item" ><a href="">video</a></li>
                 </ul>
             </nav>
             <section>
@@ -23,36 +23,36 @@
                         <articlen class="cuestion">
                             Cuestionario
                         </article>
-                        <form action="">
+                        <form action="" class="form">
                             <label for="nombre">
-                                <span>¿cual es tu nombre?</span>
+                                <span class="form__span">¿cual es tu nombre?</span>
                                 <input type="text" name="nombre" id="nombre" 
                                 placeholder="Tu nombre" autocomplete="name" required />
                             </label>
                             <label for="Tiempo">
-                                <span>¿que mes, dia y hora desa comprar?</span>
+                                <span class="form__span">¿que mes, dia y hora desa comprar?</span>
                                 <input type="datetime-local" name="Tiempo" id="Tiempo" required />
                             </label>
                             <label for="email">
-                                <span>¿Cual es tu email?</span>
+                                <span class="form__span">¿Cual es tu email?</span>
                                 <input type="email" name="email" id="email" 
                                 placeholder="user@gmail.com" autocomplete="email" required />
                             </label>
-                            <samp>seleccione las frutas que desea</samp>
+                            <samp class="form__span">seleccione las frutas que desea</samp>
                             <input list="frutas">
                             <datalist id="frutas">
                                 <option value="Manzanas"></option>
                                 <option value="Uvas"></option>
                             </datalist>
 
-                            <samp>seleccione las Carnes que desea</samp>
+                            <samp class="form__span">seleccione las Carnes que desea</samp>
                             <input list="carnes">
                             <datalist id="carnes">
                                 <option value="Pollo"></option>
                                 <option value="Corte de carne"></option>
                             </datalist>
     
-                            <samp>seleccione las verduras que desea</samp>
+                            <samp class="form__span">seleccione las verduras que desea</samp>
                             <input list="verduras">
                             <datalist id="verduras">
                                 <option value="Berenjena"></option>

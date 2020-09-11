@@ -57,3 +57,41 @@ header
 {
     color: orangered;
 }
+.main-nav
+{
+    background-color: aquamarine;
+}
+.main-nav__item
+{
+    list-style: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: aquamarine;
+}
+.main-nav__item a
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: cornflowerblue;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(148, 182, 245);
+}
+.main-nav__item a:hover
+{
+    color: blue;
+}
+.main-nav__item a:active
+{
+    color: red;
+}
+.main-nav__item a::after
+{
+    content: " | ";
+}
+.main-nav__item a::before
+{
+    content: " | ";
+}
+
+
