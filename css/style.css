@@ -93,5 +93,20 @@ header
 {
     content: " | ";
 }
-
-
+/* .form__span:hover
+{
+    color: blue;
+}
+.envviar:active
+{
+    color: red;
+}
+ */
+.img
+{
+    border-radius: 50px;
+}
+.quitar-guion a
+{
+    text-decoration: none;
+}
